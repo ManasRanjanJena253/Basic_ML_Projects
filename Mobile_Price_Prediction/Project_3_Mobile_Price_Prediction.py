@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split , GridSearchCV
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv('../Important Datasets/Mobile_Price.csv')
+data = pd.read_csv('Mobile_Price.csv')
 print(data.head())
 sns.displot(data['battery_power'])
 plt.show()

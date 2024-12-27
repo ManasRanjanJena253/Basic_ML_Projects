@@ -10,7 +10,7 @@ from lightgbm import LGBMRegressor
 from imblearn.over_sampling import SMOTE
 
 # Loading the data into a dataframe
-data = pd.read_csv('../Important Datasets/dataset.csv')
+data = pd.read_csv('dataset.csv')
 
 # Getting info about the data
 print(data.head())

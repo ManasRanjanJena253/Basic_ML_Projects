@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import LabelEncoder
 from xgboost import XGBClassifier
 
-data = pd.read_csv('../Important Datasets/liver_cirrhosis.csv')  # Loading the dataset into a dataframe.
+data = pd.read_csv('liver_cirrhosis.csv')  # Loading the dataset into a dataframe.
 # Getting some info about our data
 print(data.head())
 print(data.info())

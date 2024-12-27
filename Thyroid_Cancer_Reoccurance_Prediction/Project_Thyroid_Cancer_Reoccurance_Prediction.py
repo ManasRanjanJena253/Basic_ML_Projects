@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split, GridSearchCV
 
-data = pd.read_csv('../Important Datasets/Thyroid_cancer.csv')  # Loading th data into dataframe.
+data = pd.read_csv('Thyroid_cancer.csv')  # Loading th data into dataframe.
 
 # Gathering insight about the loaded data
 print(data.head())

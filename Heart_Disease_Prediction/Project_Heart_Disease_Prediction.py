@@ -7,7 +7,7 @@ from lightgbm import LGBMClassifier
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('../Important Datasets/heart_disease.csv')
+data = pd.read_csv('heart_disease.csv')
 print(data.head())
 print(data.shape)
 print(data.info())

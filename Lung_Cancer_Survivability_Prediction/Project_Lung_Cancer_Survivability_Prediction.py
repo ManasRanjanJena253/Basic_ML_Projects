@@ -10,7 +10,7 @@ from xgboost import XGBClassifier
 from imblearn.over_sampling import SMOTE
 
 # Loading the dataset into a dataframe
-data = pd.read_csv('../Important Datasets/dataset_med.csv')
+data = pd.read_csv('dataset_med.csv')
 
 # Getting info about the data
 print(data.head())
